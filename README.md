@@ -25,42 +25,41 @@ The goal of this challenge is to do climate analysis on Honolulu, Hawaii using P
 - [x] Correctly plot a histogram with bins=12 for the last year of data using tobs as the column to count.
 ### API SQLite Connection & Landing Page
 Flask application must:
-- [ ] Correctly generate the engine to the correct sqlite file
-- [ ] Use automap_base() and reflect the database schema
-- [ ] Correctly save references to the tables in the sqlite file (measurement and station)
-- [ ] Correctly create and binds the session between the python app and database
-- [ ] Display the available routes on the landing page
+- [x] Correctly generate the engine to the correct sqlite file
+- [x] Use automap_base() and reflect the database schema
+- [x] Correctly save references to the tables in the sqlite file (measurement and station)
+- [x] Correctly create and binds the session between the python app and database
+- [x] Display the available routes on the landing page
 ### API Static Routes
 Flask application must include:
 
 A precipitation route that:
-- [ ] Returns json with the date as the key and the value as the precipitation
-- [ ] Only returns the jsonified precipitation data for the last year in the database
+- [x] Returns json with the date as the key and the value as the precipitation
+- [x] Only returns the jsonified precipitation data for the last year in the database
 A stations route that:
-- [ ] Returns jsonified data of all of the stations in the database
+- [x] Returns jsonified data of all of the stations in the database
 
 A tobs route that:
-- [ ] Returns jsonified data for the most active station (USC00519281)
-- [ ] Only returns the jsonified data for the last year of data
+- [x] Returns jsonified data for the most active station (USC00519281)
+- [x] Only returns the jsonified data for the last year of data
 ### API Dynamic Route
 Flask application must include:
 
 A start route that:
-- [ ] Accepts the start date as a parameter from the URL
-- [ ] Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
+- [x] Accepts the start date as a parameter from the URL
+- [x] Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
 
 A start/end route that:
-- [ ] Accepts the start and end dates as parameters from the URL
-- [ ] Returns the min, max, and average temperatures calculated from the given start date to the given end date
+- [x] Accepts the start and end dates as parameters from the URL
+- [x] Returns the min, max, and average temperatures calculated from the given start date to the given end date
 ### Coding Conventions and Formatting
-- [ ] Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants.
-- [ ] Name functions and variables with lowercase characters, with words separated by underscores.
-- [ ] Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code.
-- [ ] Use concise logic and creative engineering where possible.
+- [x] Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants.
+- [x] Name functions and variables with lowercase characters, with words separated by underscores.
+- [x] Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code.
+- [x] Use concise logic and creative engineering where possible.
 ### Deployment and Submission
 - [x] Submit a link to a GitHub repository that’s cloned to your local machine and contains your files.
 - [x] Use the command line to add your files to the repository.
-- [ ] Include appropriate commit messages in your files. (2 points)
+- [x] Include appropriate commit messages in your files.
 ### Comments
-- [ ] Be well commented with concise, relevant notes that other developers can understand.
-## Results
+- [x] Be well commented with concise, relevant notes that other developers can understand.
